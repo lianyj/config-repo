@@ -7,7 +7,7 @@ spring:
       password: root
       url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8&serverTimezone=GMT&useSSL=false
       
-env: dev999
+env: dev9
 
 server:
   port: 8082
