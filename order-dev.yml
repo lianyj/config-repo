@@ -11,3 +11,5 @@ eureka:
     service-url:
       defaultZone: http://192.168.10.67:8761/eureka/    
 env: dev
+server:
+  port: 8081
