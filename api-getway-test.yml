@@ -2,16 +2,3 @@ env: test
 server:
   port: 9000
 
-zuul:
-  routes:
-#  /myProduct/product/list -> /product/product/list
-     myProduct:
-       path: /myProduct/**
-       serviceId: product
-       #  不过滤cookie
-       sensitiveHeaders: null
-#  简洁写法
-#     product: /myProduct/**
-#     禁止外部访问 排除某些路由
-  ignored-patterns:
-    - /**/product/list
